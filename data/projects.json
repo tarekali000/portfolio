@@ -1,0 +1,352 @@
+[
+  {
+    "id": "arabic-nlp-ai",
+    "title": "Arabic Grammatical Analysis AI",
+    "title_ar": "نموذج الذكاء الاصطناعي للإعراب والتحليل النحوي العربي",
+    "category": "independent",
+    "category_label": "INDEPENDENT PROJECT",
+    "category_label_ar": "مشروع مستقل",
+    "shortDescription": "Transformer-based Arabic NLP model for word-level and sentence-level syntactic parsing and diacritization.",
+    "shortDescription_ar": "نموذج ذكاء اصطناعي يعتمد على المحولات (Transformers) للتحليل النحوي، الإعراب التفصيلي، والتشكيل التلقائي.",
+    "fullDescription": "A specialized Natural Language Processing system trained on Arabic grammatical corpuses. Leverages state-of-the-art transformer architectures (such as Qwen and custom tokenizers) fine-tuned with PyTorch and Hugging Face. Capable of parsing complex classical and modern Arabic sentences, identifying grammatical roles (I'rab), root extraction, and contextual tashkeel (diacritization).",
+    "fullDescription_ar": "نظام معالجة لغات طبيعية (NLP) متخصص ومدرّب على معاجم ومدونات النحو والإعراب العربي. تم بناؤه باستخدام بنيات Transformers الحديثة وتطويعها عبر PyTorch و Hugging Face. يقوم بإعراب الكلمات وتحديد موقعها الإعرابي، استخراج الجذور، والتشكيل الدقيق للسياق اللغوي العربي المعاصر والتراثي.",
+    "features": [
+      "Fine-tuned Transformer pipeline for Arabic morpho-syntactic parsing",
+      "Contextual sentence diacritization (Tashkeel) with high accuracy",
+      "Word root and lemma extraction module",
+      "RESTful inference endpoint for integration with web applications",
+      "Benchmarked on complex Arabic linguistic test sets",
+      "The model is 0.6B"
+    ],
+    "features_ar": [
+      "نموذج Transformer مدرب خصيصًا للإعراب والتحليل الصرفي والنحوي",
+      "تشكيل النصوص التلقائي بدقة سياقية عالية مع مراعاة الحركات الإعرابية",
+      "استخراج الجذور والوزن الصرفي للكلمات بدقة",
+      "واجهة استدلال API لتوصيل النموذج بالتطبيقات والمنصات الخارجية",
+      "تقييم واختبار النموذج على نصوص عربية كلاسيكية وحديثة معقدة",
+      "هذا النموذج هو 0.6B فقط"
+    ],
+    "stack": [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "Transformers",
+      "Qwen",
+      "NLP"
+    ],
+    "github": "https://huggingface.co/6tarek/Iraab-v3-full",
+    "demo": "",
+    "media": {
+      "images": ["/imgs/Iraab/test.png"]
+    }
+  },
+  {
+    "id": "pos-store-management",
+    "title": "POS & Store Management System",
+    "title_ar": "نظام إدارة نقاط البيع والمتاجر المتكامل (POS)",
+    "category": "independent",
+    "category_label": "INDEPENDENT PROJECT",
+    "category_label_ar": "مشروع مستقل",
+    "shortDescription": "Retail solution with inventory tracking, barcode/SKU scanning, invoicing, returns, and role-based permissions.",
+    "shortDescription_ar": "حل شامل للمبيعات والمخازن مع دعم قارئ الباركود، الفواتير الإلكترونية، المرتجعات، وإدارة الصلاحيات.",
+    "fullDescription": "A complete retail management and point-of-sale platform. Provides real-time inventory management with low-stock alerts, fast barcode scanning, multi-tier cashier and manager roles, thermal receipt printing, tax calculations, daily sales shifts, and detailed revenue reporting.",
+    "fullDescription_ar": "نظام متكامل لنقاط البيع وإدارة المتاجر والمخازن. يقدم إدارة فورية للمخزون مع تنبيهات عند اقتراب نفاد المنتجات، دعم قارئ الباركود السريع، فواتير إلكترونية متوافقة مع الطباعة الحرارية، ورديات الكاشير، وتقارير أرباح ومبيعات تفصيلية.",
+    "features": [
+      "Sub-second barcode/SKU lookup and cart calculation",
+      "Automated stock level deduction with low-inventory warnings",
+      "Thermal printer invoice generation with customizable headers",
+      "End-of-day shift reconciliation and cashier handover reporting",
+      "Role-based permissions separating cashier actions from manager overrides"
+    ],
+    "features_ar": [
+      "بحث فوري عن المنتجات بالباركود وحساب الفواتير بسرعة فائقة",
+      "خصم تلقائي من المخزن وتنبيهات فورية بالحد الأدنى للمخزون",
+      "طباعة فواتير فورية متوافقة مع الطابعات الحرارية والـ QR Code",
+      "إقفال ورديات الكاشير وتقارير تسوية الصندوق والمبيعات اليومية",
+      "صلاحيات دقيقة تفصل بين مهام الكاشير وصلاحيات المدير والمشرف"
+    ],
+    "stack": ["NestJS", "Prisma", "React", "Sqlite"],
+    "github": "",
+    "demo": "",
+    "media": {
+      "images": [
+        "/imgs/POS web/404.png",
+        "/imgs/POS web/cashire.png",
+        "/imgs/POS web/home.png",
+        "/imgs/POS web/invintory.png",
+        "/imgs/POS web/invoice-log.png",
+        "/imgs/POS web/invoice-return.png",
+        "/imgs/POS web/profile.png",
+        "/imgs/POS web/settings.png",
+        "/imgs/POS web/staff.png",
+        "/imgs/POS web/invoice-settings.png"
+      ],
+      "video": ""
+    }
+  },
+  {
+    "id": "local-send-shared-files",
+    "title": "Local Send - Shared Files Workspace",
+    "title_ar": "Local Send - نظام مشاركة وإدارة الملفات محليًا",
+    "category": "independent",
+    "category_label": "INDEPENDENT PROJECT",
+    "category_label_ar": "مشروع مستقل",
+    "shortDescription": "A local file-sharing and management platform that allows users to upload, browse, organize, and manage files and folders through a web-based interface hosted on a local server.",
+    "shortDescription_ar": "منصة محلية لمشاركة وإدارة الملفات تتيح رفع الملفات والمجلدات واستعراضها وتنظيمها والتحكم فيها من خلال واجهة ويب تعمل على خادم محلي.",
+    "fullDescription": "Local Send is a self-hosted file-sharing workspace designed to make file management and sharing accessible through a web browser. It provides a centralized interface for uploading individual files or entire folders, browsing available directories, reviewing file information, and managing stored content. The platform includes configurable shared storage directories, server binding settings, owner IP information, and a live performance monitoring dashboard. Designed for local environments, it provides a practical alternative to cloud-based file-sharing services when files need to remain within a local network.",
+    "fullDescription_ar": "Local Send هو نظام مستضاف محليًا لمشاركة وإدارة الملفات من خلال متصفح الويب، يوفر واجهة مركزية لرفع الملفات والمجلدات بالكامل واستعراض المجلدات المتاحة وإدارة المحتوى المخزن. يتضمن النظام إمكانية تحديد مسار التخزين المشترك والتحكم في إعدادات الخادم وعرض معلومات عنوان IP الخاص بالمالك، بالإضافة إلى لوحة مراقبة مباشرة لأداء الخادم واستهلاك الموارد. صُمم النظام للعمل داخل البيئات المحلية والشبكات الداخلية، مما يوفر بديلًا عمليًا لخدمات مشاركة الملفات السحابية مع الاحتفاظ بالملفات داخل البيئة المحلية.",
+    "features": [
+      "Upload individual files and entire folders directly from the browser",
+      "Browse and navigate the shared file directory",
+      "Open, review, and delete available files and folders",
+      "Configurable shared root storage directory",
+      "Local-only workspace for managing files within a local environment",
+      "Server configuration including owner IP and bind host",
+      "Live server performance monitoring dashboard",
+      "Storage usage, disk space, file count, and folder count statistics",
+      "Server response time, scanning performance, and uptime monitoring",
+      "Error tracking and resource usage monitoring"
+    ],
+    "features_ar": [
+      "رفع الملفات الفردية والمجلدات بالكامل مباشرة من المتصفح",
+      "استعراض المجلدات والتنقل داخل مساحة الملفات المشتركة",
+      "فتح الملفات والمجلدات ومراجعتها وحذفها",
+      "إمكانية تحديد وتخصيص مسار التخزين الرئيسي للملفات المشتركة",
+      "بيئة تشغيل محلية لإدارة الملفات دون الاعتماد على التخزين السحابي",
+      "إعدادات الخادم بما يشمل عنوان IP الخاص بالمالك وBind Host",
+      "لوحة تحكم لمراقبة أداء الخادم في الوقت الفعلي",
+      "عرض إحصائيات الملفات والمجلدات ومساحة التخزين المستخدمة والمتاحة",
+      "مراقبة زمن الاستجابة وسرعة فحص الملفات ومدة تشغيل الخادم",
+      "متابعة الأخطاء واستهلاك موارد النظام"
+    ],
+    "stack": ["Bun", "Bootsrap"],
+    "github": "",
+    "demo": "",
+    "media": {
+      "images": [
+        "/imgs/shared files/home 1.png",
+        "/imgs/shared files/home 2.png"
+      ],
+      "video": ""
+    }
+  },
+
+  {
+    "id": "discord-codegen-ai",
+    "title": "Discord.js Code Generation Model",
+    "title_ar": "نموذج توليد أكواد بوتات Discord المتخصص",
+    "category": "independent",
+    "category_label": "INDEPENDENT PROJECT",
+    "category_label_ar": "مشروع مستقل",
+    "shortDescription": "Domain-specific language model fine-tuned for building Discord.js v14 bots with slash commands and event handlers.",
+    "shortDescription_ar": "نموذج ذكاء اصطناعي متخصص تم تدريبه لتوليد أكواد وبرمجيات بوتات Discord.js v14 مع معالجة الأحداث والأوامر.",
+    "fullDescription": "A domain-specialized LLM fine-tuned to generate accurate, idiomatically sound TypeScript and JavaScript code for Discord.js v14+. The training dataset was curated from official documentation, verified open-source bots, and custom synthetic instruction pairs to eliminate deprecated patterns and hallucinations.",
+    "fullDescription_ar": "نموذج لغوي مدرب على مهام محددة لتوليد أكواد TypeScript و JavaScript احترافية لمكتبة Discord.js v14 وما بعدها. تم إعداد بيانات التدريب وتنقيحها بعناية من التوثيق الرسمي ومشاريع البوتات المفتوحة المصدر للقضاء على الأنماط القديمة وإنتاج كود نظيف وسليم 100%.",
+    "features": [
+      "Generates production-ready Discord slash commands and modal interactions",
+      "Eliminates deprecated Discord.js v12/v13 syntax through curated training",
+      "Understands rate limits, guild permissions, and voice channel gateways",
+      "Integrates with TypeScript interfaces for type safety"
+    ],
+    "features_ar": [
+      "توليد أوامر سلاش (Slash Commands) ونوافذ التفاعل (Modals) بطريقة احترافية",
+      "تجنب الأكواد القديمة وغير المدعومة من الإصدارات السابقة",
+      "فهم كامل لآليات الـ Rate Limits وصلاحيات السيرفرات وإدارة القنوات الصوتية",
+      "التوافق التام مع TypeScript للحصول على أكواد منيعة وخالية من الأخطاء"
+    ],
+    "stack": [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Code Generation",
+      "TypeScript"
+    ],
+    "github": "",
+    "demo": "",
+    "media": {
+      "images": [
+        "https://images.unsplash.com/photo-1618401471353-b98aedd04e11?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": ""
+    }
+  },
+
+  {
+    "id": "electronic-library-platform",
+    "title": "Electronic Library Platform",
+    "title_ar": "منصة المكتبة الإلكترونية والوسائط المتعددة",
+    "category": "independent",
+    "category_label": "INDEPENDENT PROJECT",
+    "category_label_ar": "مشروع مستقل",
+    "shortDescription": "Digital content platform for indexing, streaming, and managing audiobooks, video lectures, and PDF resources.",
+    "shortDescription_ar": "منصة رقمية لتنظيم ومشاركة الكتب الإلكترونية، المقاطع الصوتية، والمحاضرات المرئية مع بحث متقدم.",
+    "fullDescription": "An interactive digital learning and content distribution platform. Supports categorized browsing of digital books, in-browser PDF reading, audio streaming with playback position memory, video chapter navigation, user bookmarks, and search indexed by metadata and authors.",
+    "fullDescription_ar": "منصة تعليمية ورقمية لإدارة وتوزيع المحتوى الثقافي والأكاديمي. تدعم قراءة الكتب والملفات مباشرة في المتصفح، الاستماع للكتب الصوتية مع حفظ موضع التشغيل، تصفح فصول المحاضرات المرئية، إضافة الإشارات المرجعية، ونظام بحث فوري حسب الكاتب والتصنيف.",
+    "features": [
+      "In-browser responsive PDF viewer with page bookmarking",
+      "Media streaming with resume-playback memory across sessions",
+      "Instant fuzzy search across book titles, authors, and topics",
+      "Admin dashboard for bulk file uploads and category management"
+    ],
+    "features_ar": [
+      "قارئ PDF مدمج ومتجاوب مع حفظ الصفحات والعلامات المرجعية",
+      "مشغل وسائط صوتية ومرئية يحفظ آخر دقيقة تم التوقف عندها",
+      "محرك بحث فوري وسلس عبر العناوين، أسماء المؤلفين، والتصنيفات",
+      "لوحة تحكم إدارية لرفع الملفات وتنظيم الأقسام والمحتوى"
+    ],
+    "stack": ["Node.js", "Express", "React", "MongoDB", "Cloud Storage"],
+    "github": "",
+    "demo": "",
+    "media": {
+      "images": [
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": ""
+    }
+  },
+  {
+    "id": "discord-ai-bot",
+    "title": "Discord.js AI Assistant Bot",
+    "title_ar": "بوت ديسكورد الذكي بالذكاء الاصطناعي",
+    "category": "independent",
+    "category_label": "INDEPENDENT PROJECT",
+    "category_label_ar": "مشروع مستقل",
+    "shortDescription": "AI Discord bot with prompt engineering, conversation memory, retries, and database synchronization.",
+    "shortDescription_ar": "بوت ذكاء اصطناعي تفاعلي على Discord يتميز بحفظ سياق المحادثة، معالجة الأخطاء الذكية، وربط قواعد البيانات.",
+    "fullDescription": "A feature-rich Discord bot built using TypeScript and Discord.js v14. Integrates with modern LLM APIs (Gemini and OpenAI) to deliver context-aware conversational assistance, automatic moderation, code snippet formatting, persistent user settings, and asynchronous background tasks.",
+    "fullDescription_ar": "بوت متطور لمنصة Discord مبني بأحدث إصدارات Discord.js و TypeScript. يتصل بنماذج الذكاء الاصطناعي المتطورة (Gemini & OpenAI) لتقديم محادثات ذكية مع تذكر السياق، إدارة المحتوى الآلية، تنسيق وشرح الأكواد البرمجية، وحفظ إعدادات المستخدمين في قاعدة بيانات MongoDB.",
+    "features": [
+      "Sliding-window context memory for multi-turn conversations",
+      "Exponential backoff and retry logic for API resilience",
+      "Slash command handlers with ephemeral response options",
+      "MongoDB persistence for user profiles, history, and guild configurations"
+    ],
+    "features_ar": [
+      "ذاكرة محادثة ذكية تحتفظ بسياق النقاش متعدد الردود",
+      "معالجة متقدمة للأخطاء وإعادة المحاولة التلقائية عند انقطاع الاتصال",
+      "أوامر سلاش حديثة مع استجابات خاصة ومؤقتة (Ephemeral Messages)",
+      "تخزين بيانات السيرفرات والمستخدمين في MongoDB بأعلى كفاءة"
+    ],
+    "stack": ["TypeScript", "Node.js", "Discord.js", "MongoDB", "Gemini API"],
+    "github": "",
+    "demo": "",
+    "media": {
+      "images": [
+        "https://images.unsplash.com/photo-1614680376593-902f749f7ffc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": "G:\\Videos\\music\\0e6d67e3637f1728c30cc3235aa2ad3a.mp4"
+    }
+  },
+
+  {
+    "id": "auth-backend",
+    "title": "NestJS Authentication API",
+    "title_ar": "نظام مصادقة وتفويض متكامل بـ NestJS",
+    "category": "public",
+    "category_label": "PUBLIC REPOSITORY",
+    "category_label_ar": "مستودع عام",
+    "shortDescription": "JWT authentication backend with registration, login, dual token refresh cycle, protected routes, and Swagger.",
+    "shortDescription_ar": "نظام مصادقة متكامل مبني بـ NestJS يدعم توكنات الوصول والتحديث، حماية المسارات، وصلاحيات الأدوار مع توثيق Swagger.",
+    "fullDescription": "A production-grade authentication and authorization service built with NestJS, TypeScript, and MongoDB. Implements security best practices including Argon2 hashing, dual-token strategy (short-lived access tokens + rotatable HTTP-only refresh tokens), IP & rate-limiting guards, and role-based access control (RBAC). Comes with full Swagger documentation and automated tests.",
+    "fullDescription_ar": "خدمة مصادقة وتفويض جاهزة للبيئات الإنتاجية مبنية بـ NestJS و TypeScript و MongoDB. تطبق أعلى المعايير الأمنية بما في ذلك تشفير كلمات المرور بـ Argon2، وإدارة التوكن المزدوج (Access & Refresh Tokens)، وحماية الـ Rate Limiting، وصلاحيات الأدوار (RBAC)، مع توثيق تفاعلي كامل عبر Swagger.",
+    "features": [
+      "Secure dual-token authentication (Access & Refresh tokens)",
+      "Role-Based Access Control (RBAC) with granular decorators",
+      "Automatic payload validation and sanitization using DTOs",
+      "Rate limiting and brute force protection against credential attacks",
+      "Interactive Swagger OpenAPI specification with sandbox testing"
+    ],
+    "features_ar": [
+      "نظام مصادقة متقدم بالتوكن المزدوج (Access & Refresh tokens)",
+      "نظام صلاحيات متعدد المستويات (RBAC) باستخدام Decorators مخصصة",
+      "تحقق وتطهير تلقائي للمدخلات عبر Data Transfer Objects (DTOs)",
+      "حماية ضد هجمات القوة الغاشمة ومعدل الطلبات (Rate Limiting)",
+      "واجهة Swagger OpenAPI تفاعلية لتجربة وفحص نقاط النهاية"
+    ],
+    "stack": ["NestJS", "TypeScript", "MongoDB", "JWT", "Swagger", "Docker"],
+    "github": "https://github.com/tarekali000/auth-backend",
+    "demo": "https://github.com/tarekali000/auth-backend",
+    "media": {
+      "images": [
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": ""
+    }
+  },
+  {
+    "id": "url-short-backend",
+    "title": "NestJS URL Shortener API",
+    "title_ar": "واجهة برمجة تقصير الروابط الذكية بـ NestJS",
+    "category": "public",
+    "category_label": "PUBLIC REPOSITORY",
+    "category_label_ar": "مستودع عام",
+    "shortDescription": "High-throughput short-link service with custom vanity aliases, expiration, analytics tracking, and atomic counter updates.",
+    "shortDescription_ar": "نظام تقصير روابط عالي الكفاءة يتيح الأسماء المخصصة، تواريخ الانتهاء، وتحليلات فورية لعدد الزيارات.",
+    "fullDescription": "A scalable URL shortening and analytics engine built with NestJS, Prisma ORM, and SQLite/PostgreSQL. Supports custom vanity codes, auto-generated base62 hashes, link expiration dates, redirect caching, detailed click tracking (timestamps, user-agents, referrers), and atomic counter updates to prevent race conditions under load.",
+    "fullDescription_ar": "محرك تقصير الروابط والتحليلات الإحصائية المتقدم، تم بناؤه باستخدام NestJS و Prisma ORM. يتيح إنشاء روابط مخصصة (Vanity URLs) أو تشفير Base62 التلقائي، تحديد فترات الصلاحية، تخزين مؤقت للتحويل، وتتبع النقرات والمعلومات الإحصائية بدقة مع معالجة التزامن العالي.",
+    "features": [
+      "Base62 hash collision resolution and custom alias validation",
+      "Time-based link expiration with automated cleanup",
+      "Detailed access analytics: click metrics, referrers, and device types",
+      "Atomic database operations preventing race conditions",
+      "Prisma schema with relational indexing for sub-millisecond lookup"
+    ],
+    "features_ar": [
+      "توليد أكواد Base62 فائقة السرعة مع منع التعارض والأسماء المخصصة",
+      "إمكانية تعيين تاريخ انتهاء صلاحية للروابط مع معالجة ذكية",
+      "تحليلات دقيقة: عدد النقرات، مصادر الزيارات، وأنواع الأجهزة",
+      "عمليات ذرية (Atomic operations) لمنع تعارض البيانات تحت الضغط العالي",
+      "فهرسة متطورة في قواعد البيانات تضمن استجابة بأجزاء من الثانية"
+    ],
+    "stack": ["NestJS", "TypeScript", "Prisma", "SQLite", "REST APIs"],
+    "github": "https://github.com/tarekali000/url-short-backend",
+    "demo": "https://github.com/tarekali000/url-short-backend",
+    "media": {
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": ""
+    }
+  },
+  {
+    "id": "nestjs-file-storage-api",
+    "title": "NestJS File Storage API",
+    "title_ar": "نظام إدارة وتخزين الملفات الآمن بـ NestJS",
+    "category": "public",
+    "category_label": "PUBLIC REPOSITORY",
+    "category_label_ar": "مستودع عام",
+    "shortDescription": "User-scoped file storage with streaming downloads, SHA-256 checksum integrity, metadata tracking, and quotas.",
+    "shortDescription_ar": "نظام تخزين وإدارة ملفات آمن لكل مستخدم، يدعم التدفق المباشر (Streaming)، والتحقق من التجزئة SHA-256 وحساب المساحات.",
+    "fullDescription": "A robust storage microservice handling multi-part file uploads, MIME type validation, file sanitization, and SHA-256 integrity verification. Offers chunked streaming for large file downloads without consuming host memory, user storage quota calculations, and tokenized presigned download links.",
+    "fullDescription_ar": "خدمة مصغرة لتخزين وإدارة الملفات المتعددة، تشمل فحص نوع الملف (MIME Type)، تنقية الملفات المشبوهة، والتحقق التام من سلامة البيانات عبر تشفير SHA-256. توفر تنزيل الملفات عبر البث التدفقي (Chunked Streaming) لتوفير الذاكرة، مع حساب مساحات المستخدمين وتوليد روابط تنزيل مؤقتة وآمنة.",
+    "features": [
+      "Chunked file streaming to handle large payloads efficiently",
+      "SHA-256 checksum generation for duplicate detection and tamper prevention",
+      "Strict MIME-type sniffing and file size enforcement",
+      "User-scoped storage quotas and detailed space consumption metrics",
+      "JWT-authenticated endpoints with granular download permissions"
+    ],
+    "features_ar": [
+      "بث الملفات الكبيرة بنظام الـ Chunks لعدم استهلاك ذاكرة الخادم",
+      "توليد هاش SHA-256 لاكتشاف التكرارات وضمان سلامة الملفات",
+      "فحص عميق لنوع الملف ومنع رفع الملفات الخبيثة أو المخالفة",
+      "إدارة حصص التخزين لكل مستخدم وإحصائيات فورية للمساحة",
+      "روابط تحميل محمية بنظام التوكن والصلاحيات المحددة"
+    ],
+    "stack": ["NestJS", "TypeScript", "Prisma", "SQLite", "JWT", "Streams"],
+    "github": "https://github.com/tarekali000/nestjs-file-storage-api",
+    "demo": "https://github.com/tarekali000/nestjs-file-storage-api",
+    "media": {
+      "images": [
+        "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": ""
+    }
+  }
+]

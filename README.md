@@ -1,20 +1,37 @@
 # Tarek Mahmoud Ali — Portfolio
 
-A responsive, interactive personal portfolio built with plain HTML, CSS, and JavaScript.
+A responsive, interactive personal portfolio built with plain HTML, CSS, and modern JavaScript.
 
 ## Features
-- Intro boot sequence: terminal-style progress animation that simulates the interface being assembled on entry.
-- Animated role typing effect.
-- GitHub profile avatar and live public profile/repository stats fetched from GitHub's public REST API.
-- Responsive project grid with filters for public repositories and independent projects.
-- English / Arabic toggle with RTL layout.
-- Dark / light theme toggle.
-- Mobile navigation and scroll-reveal animations.
-- Contact links for email, WhatsApp, GitHub, and LinkedIn.
-- Respects `prefers-reduced-motion`.
+- **Certificates & Verified Credentials**: Dedicated section displaying professional certificates loaded dynamically from JSON with credential IDs and verification links.
+- **Dynamic Projects & Interactive Modal**: Project cards display a clean short description; clicking any card opens a modal popup with full architecture details, features list, image gallery, and video support.
+- **JSON-Driven Content**: Both projects and certificates are fetched dynamically from `data/projects.json` and `data/certificates.json` with bilingual (English/Arabic) support.
+- **Rich Animation Suite**:
+  - Interactive constellation particle canvas in the background.
+  - Smooth cursor spotlight follower.
+  - 3D perspective tilt on cards (`perspective`, `rotateX`, `rotateY`).
+  - Animated counting numbers for statistics (`repoCount`, `followerCount`, etc.).
+  - Terminal-style intro boot sequence with simulated module loading.
+  - Animated role typing effect in hero section.
+  - Smooth modal spring scale-in and staggered reveal animations.
+- **GitHub Live API Integration**: Fetches public profile avatar, repository count, and followers.
+- **Bilingual & RTL**: One-click switch between English (LTR) and Arabic (RTL).
+- **Dark & Light Mode**: Seamless theme toggling with custom color palettes.
+- **Accessible & Responsive**: Keyboard accessible (ESC closes modal), responsive layout down to mobile devices, and respects `prefers-reduced-motion`.
 
-## Run locally
-No build tools or dependencies required. Open `index.html` in a browser, or use a local static server:
+## Project Structure
+```
+├── index.html            # Main markup with modal and sections
+├── style.css             # Theme, animations, 3D tilt, and responsive layout
+├── script.js             # Dynamic JSON loaders, animations, and modal engine
+├── data/
+│   ├── projects.json     # Projects database (short/full desc, stack, media, features)
+│   └── certificates.json # Certificates database (issuer, date, credentials, skills)
+└── README.md
+```
+
+## Run Locally
+No build tools or dependencies required. Open `index.html` directly in a browser, or run a local static server:
 
 ```bash
 python -m http.server 5500
@@ -22,26 +39,8 @@ python -m http.server 5500
 
 Then visit `http://localhost:5500`.
 
-## Deploy
-Upload the three files (`index.html`, `style.css`, `script.js`) to GitHub Pages, Netlify, Vercel, or any static hosting provider.
-
-## Live GitHub integration
-The site requests:
-- `https://api.github.com/users/tarekali000`
-- `https://api.github.com/users/tarekali000/repos?per_page=100&sort=updated`
-
-The avatar URL is also loaded from the returned profile response. If the API is rate-limited or offline, the site keeps the manually verified project links visible and shows a clear fallback message.
-
-## Accuracy notes
-The three public repositories linked as public work are:
-- `auth-backend`
-- `url-short-backend`
-- `nestjs-file-storage-api`
-
-Other projects are marked as independent projects based on information supplied by the developer; they are not presented as public repositories. The education entry is intentionally limited to `EST · Student` because the specific program/department was not confirmed.
-
-## Contact details
-- Email: tarekmahmoudalimail@gmail.com
-- WhatsApp: +201115489186
-- GitHub: https://github.com/tarekali000
-- LinkedIn: https://www.linkedin.com/in/tarek-ali-0ab895253/
+## Contact Details
+- **Email**: [tarekmahmoudalimail@gmail.com](mailto:tarekmahmoudalimail@gmail.com)
+- **WhatsApp**: [+20 111 548 9186](https://wa.me/201115489186)
+- **GitHub**: [github.com/tarekali000](https://github.com/tarekali000)
+- **LinkedIn**: [linkedin.com/in/tarek-ali-0ab895253/](https://www.linkedin.com/in/tarek-ali-0ab895253/)
